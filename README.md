@@ -54,9 +54,12 @@ These figures aggregate all three output heads per phase, including heads that h
 - Effective Weight L2 Norm: **4.034 initially → 3.646 with Sovereigns**; Final Fixed MLP: **4.103**. Masked/dead weights do not contribute to the effective norm calculation.
 - No hidden neurons were removed during this short evaluation sample. Weak pruning operated predominantly on individual connections.
 
-![Accuracy, Structure, and Weight Evolution](assets/Sovereign_MLP_MVP_evolution.png)
 
-![Final Connected Weights for Seed 31](assets/Sovereign_MLP_MVP_weights.png)
+
+<img width="1421" height="972" alt="Sovereign_MLP_MVP_weights" src="https://github.com/user-attachments/assets/8e285150-b1cf-401e-b5ea-7ff910eb5958" />
+
+<img width="2380" height="749" alt="Sovereign_MLP_MVP_evolution" src="https://github.com/user-attachments/assets/d8fd5ab3-fc5d-44ca-8a7c-193dfac5db8b" />
+
 
 ## Verification and Limitations
 
